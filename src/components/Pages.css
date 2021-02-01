@@ -1,0 +1,22 @@
+.member {
+  text-align: center;
+}
+.list {
+  padding: 5px 5px 25px 25px;
+}
+.content {
+  display: flex;
+  font-weight: bold;
+  padding: 10px 10px 40px 40px;
+}
+.body1 {
+  padding: 60px 40px 60px 40px;
+}
+.body2 {
+  padding: 10px 40px 0px 40px;
+}
+.contact {
+  padding: 20px 0px 0px 40px;
+  display: flex;
+  flex-direction: column;
+}
