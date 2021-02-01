@@ -5,7 +5,7 @@ function Contact() {
     <div>
       <NavigationBar />
       <div className="contact">
-        <h4>Contact Us</h4>
+        <h4 style={{ color: "red" }}>Contact Us</h4>
         <p>TechSWAP</p>
         <p>
           Nirmaan, Opp. Bhadra Hostel

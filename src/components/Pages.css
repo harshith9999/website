@@ -18,5 +18,7 @@
 .contact {
   padding: 20px 0px 0px 40px;
   display: flex;
+  color: white;
+  background-color: black;
   flex-direction: column;
 }
