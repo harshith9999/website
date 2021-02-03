@@ -1,7 +1,6 @@
 import React from "react";
 import NavigationBar from "./Navbar/Navbar";
 import "./Pages.css";
-import SimpleImageSlider from "react-simple-image-slider";
 import { Carousel } from "react-bootstrap";
 
 function Home(props) {
