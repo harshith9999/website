@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Nav, NavDropdown, Navbar } from "react-bootstrap";
 import "./Navbar.css";
+import logo from './logo.png'
 
 function NavigationBar() {
   const [clicked, setclicked] = useState(false);
@@ -10,7 +11,7 @@ function NavigationBar() {
   };
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">TechSWAP</Navbar.Brand>
+      <Navbar.Brand href="#home"><img style={{width: 150, height: 70}} src={logo}/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
@@ -21,7 +22,7 @@ function NavigationBar() {
             <NavDropdown.Item>Civil Engineering</NavDropdown.Item>
             <NavDropdown.Item>Mechanical Engineering</NavDropdown.Item>
             <NavDropdown.Item>Computers Science & Engineering</NavDropdown.Item>
-            <NavDropdown.Item>Environmental Engineering</NavDropdown.Item>
+            <NavDropdown.Item>Electrical Engineering</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

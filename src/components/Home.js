@@ -2,13 +2,14 @@ import React from "react";
 import NavigationBar from "./Navbar/Navbar";
 import "./Pages.css";
 import { Carousel } from "react-bootstrap";
+import Members from "./members";
 
 function Home(props) {
   return (
     <>
       <NavigationBar />
       <div className="content">
-        <img src="https://www.coreldraw.com/static/cdgs/images/free-trials/img-ui-cdgsx.jpg" />
+        <img src="https://www.techlp.org/img/banner_img.png" />
         <div className="body1">
           Conducting Seminars, Workshops & Project Programmes crafted by
           professionals having elaborate knowledge on the subjects for the
@@ -23,9 +24,11 @@ function Home(props) {
         </div>
       </div>
       <h4 className="member">Members</h4>
-      <div className=" d-flex justify-content-center">
-        <div className="w-50">
-          <Carousel>
+      <Members/>
+
+      {/* <div className=" d-flex justify-content-center">
+        <div className="w-50"> */}
+          {/* <Carousel>
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -64,9 +67,9 @@ function Home(props) {
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
-          </Carousel>
-        </div>
-      </div>
+          </Carousel> */}
+        {/* </div>
+      </div> */}
       <div className="contact">
         <h4 style={{ color: "red" }}>Contact Us</h4>
         <p>TechSWAP</p>
