@@ -3,6 +3,7 @@ import NavigationBar from "./Navbar/Navbar";
 import "./Pages.css";
 import { Carousel } from "react-bootstrap";
 import Members from "./members";
+import Footer from "./Footer";
 
 function Home(props) {
   return (
@@ -70,17 +71,9 @@ function Home(props) {
           </Carousel> */}
         {/* </div>
       </div> */}
-      <div className="contact">
-        <h4 style={{ color: "red" }}>Contact Us</h4>
-        <p>TechSWAP</p>
-        <p>
-          Nirmaan, Opp. Bhadra Hostel
-          <br />
-          IIT Madras.
-        </p>
-        <p>Phone:08754517751</p>
-        <p>Email: venkateshiitm15@gmail.com</p>
-      </div>
+<Footer>
+
+</Footer>
     </>
   );
 }
