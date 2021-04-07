@@ -10,7 +10,7 @@ function NavigationBar() {
     setclicked(!clicked);
   };
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Navbar.Brand href="#home"><img style={{width: 150, height: 70}} src={logo}/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
