@@ -16,8 +16,7 @@ function About() {
           knowledge doors of the students’ which is constrain only for the
           classrooms to the field/practical. Further it also deals the students
           undergraduate (i.e. B.Tech/B.E.) and postgraduate (M.Tech/M.E.)
-          projects which are useful for the society along for their bright
-          future”.
+          projects which are useful for the society along their bright future”.
         </div>
       </div>
       <Footer />

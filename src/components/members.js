@@ -21,7 +21,10 @@ const Members = (props) => {
               </figure>
             </div>
             <h3 class="member-title">
-              <a href="#">B Venkatesh</a>
+              <p style={{ color: "aquamarine", fontWeight: "bold" }}>
+                B Venkatesh
+              </p>
+              <p style={{ paddingTop: "1px" }}>Civil Engineering</p>
               <p>PhD</p> <small>(CEO and founder)</small>
             </h3>
             <p>techswap.iit@gmail.com</p>
@@ -42,7 +45,10 @@ const Members = (props) => {
               </figure>
             </div>
             <h3 class="member-title">
-              <a href="#">Surendra Errepalli</a>
+              <p style={{ color: "aquamarine", fontWeight: "bold" }}>
+                Surendra Errepalli
+              </p>
+              <p style={{ paddingTop: "1px" }}>Civil Engineering</p>
               <p>Mtech</p>
               <small>(COO)</small>
             </h3>
@@ -61,7 +67,13 @@ const Members = (props) => {
               </figure>
             </div>
             <h3 class="member-title">
-              <a href="#">Ankit Raut</a> <small>(Member)</small>
+              <p style={{ color: "aquamarine", fontWeight: "bold" }}>
+                Ankit Raut
+              </p>
+              <p style={{ paddingTop: "1px" }}>Mechanical Engineering</p>
+
+              <p>PhD</p>
+              <small>(Member)</small>
             </h3>
           </div>
         </div>
@@ -74,7 +86,12 @@ const Members = (props) => {
               </figure>
             </div>
             <h3 class="member-title">
-              <a href="#">Member</a> <small>(Member)</small>
+              <p style={{ color: "aquamarine", fontWeight: "bold" }}>Harsha</p>
+              <p style={{ paddingTop: "1px" }}>
+                Computer Science and Engineering
+              </p>
+              <p>PhD</p>
+              <small>(Member)</small>
             </h3>
           </div>
         </div>

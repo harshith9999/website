@@ -9,8 +9,8 @@ function Footer() {
           <br />
           IIT Madras.
         </p>
-        <p>Phone:08754517751</p>
-        <p>Email: venkateshiitm15@gmail.com</p>
+        <p>Phone:+91-8248149388</p>
+        <p>Email: techswap.iit@gmail.com</p>
       </div>
     </footer>
   );
