@@ -1,19 +1,23 @@
 .member {
   text-align: center;
 }
+h1 {
+  font-size: xxx-large !important;
+}
 .list {
   padding: 5px 5px 25px 25px;
 }
 .content {
   display: flex;
-  font-weight: bold;
+  font-size: x-large;
   padding: 10px 10px 40px 40px;
 }
 .body1 {
-  padding: 60px 40px 60px 40px;
+  padding: 125px 40px 60px 40px;
 }
 .body2 {
-  padding: 10px 40px 0px 40px;
+  padding: 70px 40px 0px 40px;
+  font-size: x-large;
 }
 .contact {
   padding: 20px 0px 0px 40px;

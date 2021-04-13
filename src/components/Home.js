@@ -4,7 +4,7 @@ import "./Pages.css";
 import { Carousel } from "react-bootstrap";
 import Members from "./members";
 import Footer from "./Footer";
-import banner from "../banner_img.png";
+import banner from "../banner.png";
 
 function Home(props) {
   return (
@@ -26,7 +26,7 @@ function Home(props) {
             </ol>
           </div>
         </div>
-        <h4 className="member">Members</h4>
+        <h1 className="member">Members</h1>
         <Members />
       </div>
       <Footer></Footer>

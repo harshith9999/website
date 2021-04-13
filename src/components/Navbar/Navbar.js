@@ -15,7 +15,7 @@ function NavigationBar() {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/about">About us</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
-
+          <Nav.Link href="/register">Register</Nav.Link>
           <NavDropdown title="Courses" id="basic-nav-dropdown">
             <NavDropdown.Item>Civil Engineering</NavDropdown.Item>
             <NavDropdown.Item>Mechanical Engineering</NavDropdown.Item>

@@ -3,6 +3,7 @@ import { Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Register from "./components/Registration";
 import history from "./history";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         {/* <Route path="/home" component={(props) => <Home {...props} />} /> */}
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="/register" component={Register} />
       </Switch>
     </Router>
   );
