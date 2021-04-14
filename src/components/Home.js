@@ -1,7 +1,5 @@
 import React from "react";
 import NavigationBar from "./Navbar/Navbar";
-import "./Pages.css";
-import { Carousel } from "react-bootstrap";
 import Members from "./members";
 import Footer from "./Footer";
 import banner from "../banner.png";
@@ -12,7 +10,7 @@ function Home(props) {
       <div>
         <NavigationBar />
         <div className="content">
-          <img src={banner} />
+          <img src={banner} width="55%" />
           <div className="body1">
             Conducting Seminars, Workshops & Project Programmes crafted by
             professionals having elaborate knowledge on the subjects for the

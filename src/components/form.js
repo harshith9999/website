@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import "./Pages.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="border border-color-white p-5" style={{ width: "45%" }}>
+      <div className="border border-color-white p-5 form">
         <h2>Registration Form</h2>
 
-        <form className="w-75">
+        <form class6Name="w-75">
           <div class="form-group mt-5">
             <label for="college_name_id" class="control-label">
               Name of your Institute
@@ -107,28 +108,6 @@ class App extends Component {
               <option value="MT">Uttar Pradesh</option>
               <option value="NE">Uttarakhand</option>
               <option value="NV"> West Bengal</option>
-              <option value="NH">New Hampshire</option>
-              <option value="NJ">New Jersey</option>
-              <option value="NM">New Mexico</option>
-              <option value="NY">New York</option>
-              <option value="NC">North Carolina</option>
-              <option value="ND">North Dakota</option>
-              <option value="OH">Ohio</option>
-              <option value="OK">Oklahoma</option>
-              <option value="OR">Oregon</option>
-              <option value="PA">Pennsylvania</option>
-              <option value="RI">Rhode Island</option>
-              <option value="SC">South Carolina</option>
-              <option value="SD">South Dakota</option>
-              <option value="TN">Tennessee</option>
-              <option value="TX">Texas</option>
-              <option value="UT">Utah</option>
-              <option value="VT">Vermont</option>
-              <option value="VA">Virginia</option>
-              <option value="WA">Washington</option>
-              <option value="WV">West Virginia</option>
-              <option value="WI">Wisconsin</option>
-              <option value="WY">Wyoming</option>
             </select>
           </div>
 

@@ -7,7 +7,7 @@ function About() {
     <div className="d-flex flex-column justify-content-between h-100">
       <div>
         <NavigationBar />
-        <div className="d-flex flex-row">
+        <div className="about">
           <img src={banner} />
           <div className="body2">
             <h1>About us</h1>
