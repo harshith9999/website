@@ -22,13 +22,14 @@ const Members = (props) => {
             </div>
             <h3 class="member-title">
               <p style={{ color: "aquamarine", fontWeight: "bold" }}>
-                B Venkatesh
+                B Venkatesh{" "}
+                <sub style={{ color: "white", fontWeight: "normal" }}>
+                  Ph.D.
+                </sub>
               </p>
               <p style={{ paddingTop: "1px" }}>Civil Engineering</p>
-              <p>PhD</p> <small>(CEO and founder)</small>
+              <small>(CEO and Founder)</small>
             </h3>
-            <p>techswap.iit@gmail.com</p>
-            <p>+91-8754517751</p>
           </div>
         </div>
 
@@ -46,14 +47,14 @@ const Members = (props) => {
             </div>
             <h3 class="member-title">
               <p style={{ color: "aquamarine", fontWeight: "bold" }}>
-                Surendra Errepalli
+                Surendra Errepalli{" "}
+                <sub style={{ color: "white", fontWeight: "normal" }}>
+                  M.tech
+                </sub>
               </p>
               <p style={{ paddingTop: "1px" }}>Civil Engineering</p>
-              <p>Mtech</p>
               <small>(COO)</small>
             </h3>
-            <p>techswap.iit@gmail.com</p>
-            <p>+91-8248149388</p>
           </div>
         </div>
 
@@ -68,11 +69,12 @@ const Members = (props) => {
             </div>
             <h3 class="member-title">
               <p style={{ color: "aquamarine", fontWeight: "bold" }}>
-                Ankit Raut
+                Ankit Raut{" "}
+                <sub style={{ color: "white", fontWeight: "normal" }}>
+                  Ph.D.
+                </sub>
               </p>
               <p style={{ paddingTop: "1px" }}>Mechanical Engineering</p>
-
-              <p>PhD</p>
               <small>(Member)</small>
             </h3>
           </div>
@@ -86,11 +88,15 @@ const Members = (props) => {
               </figure>
             </div>
             <h3 class="member-title">
-              <p style={{ color: "aquamarine", fontWeight: "bold" }}>Harsha</p>
+              <p style={{ color: "aquamarine", fontWeight: "bold" }}>
+                Harsha{" "}
+                <sub style={{ color: "white", fontWeight: "normal" }}>
+                  Ph.D.
+                </sub>
+              </p>
               <p style={{ paddingTop: "1px" }}>
                 Computer Science and Engineering
               </p>
-              <p>PhD</p>
               <small>(Member)</small>
             </h3>
           </div>
