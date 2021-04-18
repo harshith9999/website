@@ -7,7 +7,7 @@ class App extends Component {
       const headers = { "Content-Type": "application/json" };
       let result = await axios.post(
         "http://localhost:8080/users/register",
-        { Mobile: 90898984789, Name: "Rip", State: "Andhra" },
+        { Mobile: 90898984789, Name: "ip", State: "Andhra" },
         headers
       );
 
@@ -16,6 +16,55 @@ class App extends Component {
       console.log(error);
     }
   }
+  constructor() {
+    super();
+    this.state = {
+      instituteName: "",
+      fullName: "",
+      contact: "",
+      department: "",
+      date: "",
+      state: "",
+    };
+    this.changeFullName = this.changeFullName.bind(this);
+    this.changeInstituteName = this.changeInstituteName.bind(this);
+    this.changeContact = this.changeContact.bind(this);
+    this.changeDepartment = this.changeDepartment.bind(this);
+    this.changeState = this.changeState.bind(this);
+    this.changeDate = this.changeDate.bind(this);
+  }
+
+  changeInstituteName(event) {
+    this.setState({
+      instituteName: event.target.value,
+    });
+  }
+  changeFullName(event) {
+    this.setState({
+      fullName: event.target.value,
+    });
+  }
+  changeContact(event) {
+    this.setState({
+      contact: event.target.value,
+    });
+  }
+  changeDepartment(event) {
+    this.setState({
+      department: event.target.value,
+    });
+  }
+  changeDate(event) {
+    this.setState({
+      date: event.target.value,
+    });
+  }
+  changeState(event) {
+    this.setState({
+      state: event.target.value,
+    });
+  }
+
   render() {
     return (
       <div className="border border-color-white p-5 form">
@@ -31,8 +80,10 @@ class App extends Component {
               type="text"
               class="form-control"
               id="college_name_id"
-              name="full_name"
+              name="Institute_name"
               placeholder=""
+              onChange={this.changeInstituteName}
+              value={this.state.instituteName}
             />
           </div>
           <div class="form-group">
@@ -46,6 +97,8 @@ class App extends Component {
               id="full_name_id"
               name="full_name"
               placeholder=""
+              onChange={this.changeFullName}
+              value={this.state.fullName}
             />
           </div>
           <div class="form-group">
@@ -59,6 +112,8 @@ class App extends Component {
               id="contact_number_id"
               name="contact_number"
               placeholder=""
+              onChange={this.changeContact}
+              value={this.state.contact}
             />
           </div>
           <div class="form-group">
@@ -72,6 +127,8 @@ class App extends Component {
               id="department_id"
               name="department"
               placeholder=""
+              onChange={this.changeDepartment}
+              value={this.state.department}
             />
           </div>
           <div class="form-group">
@@ -85,6 +142,8 @@ class App extends Component {
               id="date_id"
               name="date"
               placeholder=""
+              onChange={this.changeDate}
+              value={this.state.date}
             />
           </div>
 
