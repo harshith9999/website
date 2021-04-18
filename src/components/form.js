@@ -1,7 +1,21 @@
 import React, { Component } from "react";
 import "./Pages.css";
-
+import axios from "axios";
 class App extends Component {
+  async postData() {
+    try {
+      const headers = { "Content-Type": "application/json" };
+      let result = await axios.post(
+        "http://localhost:8080/users/register",
+        { Mobile: 90898984789, Name: "Rip", State: "Andhra" },
+        headers
+      );
+
+      console.log("result is posted", result);
+    } catch (error) {
+      console.log(error);
+    }
+  }
   render() {
     return (
       <div className="border border-color-white p-5 form">
@@ -112,7 +126,13 @@ class App extends Component {
           </div>
 
           <div class="form-group">
-            <button type="submit" class="btn btn-primary">
+            <button
+              type="submit"
+              class="btn btn-primary"
+              onClick={() => {
+                this.postData();
+              }}
+            >
               Register
             </button>
           </div>
