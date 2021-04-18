@@ -151,7 +151,12 @@ class App extends Component {
             <label for="state_id" class="control-label">
               State
             </label>
-            <select class="form-control" id="state_id">
+            <select
+              class="form-control"
+              id="state_id"
+              onChange={this.changeState}
+              value={this.state.state}
+            >
               <option value="AL">Andhra Pradesh</option>
               <option value="AK">Arunachal Pradesh</option>
               <option value="AZ">Assam</option>
