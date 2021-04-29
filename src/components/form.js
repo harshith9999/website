@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./Pages.css";
 import axios from "axios";
+const BASE_URL = `http://localhost:8080`
 class App extends Component {
   async postData() {
     try {
       const headers = { "Content-Type": "application/json" };
       let result = await axios.post(
-        "http://localhost:8080/users/register",
-        { Mobile: 90898984789, Name: "ip", State: "Andhra" },
+        `${BASE_URL}/users/register`,
+        this.state,
         headers
       );
 
@@ -19,12 +20,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      instituteName: "",
-      fullName: "",
-      contact: "",
-      department: "",
-      date: "",
-      state: "",
+      Institute: "",
+      Name: "",
+      Mobile: "",
+      Department: "",
+      Date: "",
+      State: "",
     };
     this.changeFullName = this.changeFullName.bind(this);
     this.changeInstituteName = this.changeInstituteName.bind(this);
@@ -36,32 +37,32 @@ class App extends Component {
 
   changeInstituteName(event) {
     this.setState({
-      instituteName: event.target.value,
+      Institute: event.target.value,
     });
   }
   changeFullName(event) {
     this.setState({
-      fullName: event.target.value,
+      Name: event.target.value,
     });
   }
   changeContact(event) {
     this.setState({
-      contact: event.target.value,
+      Mobile: event.target.value,
     });
   }
   changeDepartment(event) {
     this.setState({
-      department: event.target.value,
+      Department: event.target.value,
     });
   }
   changeDate(event) {
     this.setState({
-      date: event.target.value,
+      Date: event.target.value,
     });
   }
   changeState(event) {
     this.setState({
-      state: event.target.value,
+      State: event.target.value,
     });
   }
 
@@ -193,7 +194,8 @@ class App extends Component {
             <button
               type="submit"
               class="btn btn-primary"
-              onClick={() => {
+              onClick={(event) => {
+                event.preventDefault()
                 this.postData();
               }}
             >
