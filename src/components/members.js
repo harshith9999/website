@@ -26,7 +26,8 @@ const Members = (props) => {
                   Ph.D.
                 </sub>
               </p>
-              <p style={{ paddingTop: "1px" }}>Civil Engineering, IIT Madras</p>
+              <p style={{ paddingTop: "1px" }}>Civil Engineering,</p>
+              <p style={{ marginTop: "-10px" }}>IIT Madras</p>
               <small>(CEO and Founder)</small>
             </h3>
           </div>
@@ -51,7 +52,8 @@ const Members = (props) => {
                   M.tech
                 </sub>
               </p>
-              <p style={{ paddingTop: "1px" }}>Civil Engineering, IIT Madras</p>
+              <p style={{ paddingTop: "1px" }}>Civil Engineering,</p>
+              <p style={{ marginTop: "-10px" }}>IIT Madras</p>
               <small>(COO)</small>
             </h3>
           </div>
@@ -68,14 +70,15 @@ const Members = (props) => {
             </div>
             <h3 class="member-title">
               <p style={{ color: "aquamarine", fontWeight: "bold" }}>
-              Gangadhar
+              Gangadhar{" "}
                 <sub style={{ color: "white", fontWeight: "normal" }}>
                   Ph.D.
                 </sub>
               </p>
               <p style={{ paddingTop: "1px" }}>
-                Chemical Engineering, IIT Madras
+                Chemical Engineering, 
               </p>
+              <p style={{ marginTop: "-10px" }}>IIT Madras</p>
               <small>(Project Manager)</small>
             </h3>
           </div>
