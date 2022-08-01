@@ -10,7 +10,7 @@ function Home(props) {
       <div>
         <NavigationBar />
         <div className="content">
-          <img src={banner} width="55%" />
+          <img src={banner} width="55%" alt='banner' />
           <div className="body1">
             Conducting Seminars, Workshops & Project Programmes crafted by
             professionals having elaborate knowledge on the subjects for the

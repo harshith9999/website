@@ -8,7 +8,7 @@ function About() {
       <div>
         <NavigationBar />
         <div className="about">
-          <img src={banner} />
+          <img src={banner} alt='banner'/>
           <div className="body2">
             <h1>About us</h1>
             TechSWAP is a start-up company initiated by a group of enthusiastic

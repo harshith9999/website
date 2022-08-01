@@ -1,13 +1,12 @@
 import React from "react";
 import Surendra from "../Surendra.JPG";
 import Venkatesh from "../Venkatesh.JPG";
-import Ankit from "../Ankit Raut.jpg";
-import person from "../member.jpg";
+import Gangadhar from "../Gangadhar.jpg";
 
 const Members = (props) => {
   return (
     <div class="container">
-      <div class="row">
+      <div class="row" style={{ justifyContent: "center" }}>
         <div class="col-md-3 col-xs-6 col-xss-12">
           <div class="member text-center">
             <div class="member-top">
@@ -27,7 +26,7 @@ const Members = (props) => {
                   Ph.D.
                 </sub>
               </p>
-              <p style={{ paddingTop: "1px" }}>Civil Engineering</p>
+              <p style={{ paddingTop: "1px" }}>Civil Engineering, IIT Madras</p>
               <small>(CEO and Founder)</small>
             </h3>
           </div>
@@ -52,7 +51,7 @@ const Members = (props) => {
                   M.tech
                 </sub>
               </p>
-              <p style={{ paddingTop: "1px" }}>Civil Engineering</p>
+              <p style={{ paddingTop: "1px" }}>Civil Engineering, IIT Madras</p>
               <small>(COO)</small>
             </h3>
           </div>
@@ -64,40 +63,20 @@ const Members = (props) => {
           <div class="member text-center">
             <div class="member-top">
               <figure>
-                <img src={Ankit} alt="Member Name" width="325" height="350" />
+                <img src={Gangadhar} alt="Member Name" width="325" height="350" />
               </figure>
             </div>
             <h3 class="member-title">
               <p style={{ color: "aquamarine", fontWeight: "bold" }}>
-                Ankit Raut{" "}
-                <sub style={{ color: "white", fontWeight: "normal" }}>
-                  Ph.D.
-                </sub>
-              </p>
-              <p style={{ paddingTop: "1px" }}>Mechanical Engineering</p>
-              <small>(Member)</small>
-            </h3>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-xs-6 col-xss-12">
-          <div class="member text-center">
-            <div class="member-top">
-              <figure>
-                <img src={person} alt="Member Name" width="325" height="350" />
-              </figure>
-            </div>
-            <h3 class="member-title">
-              <p style={{ color: "aquamarine", fontWeight: "bold" }}>
-                Harsha{" "}
+              Gangadhar
                 <sub style={{ color: "white", fontWeight: "normal" }}>
                   Ph.D.
                 </sub>
               </p>
               <p style={{ paddingTop: "1px" }}>
-                Computer Science and Engineering
+                Chemical Engineering, IIT Madras
               </p>
-              <small>(Member)</small>
+              <small>(Project Manager)</small>
             </h3>
           </div>
         </div>

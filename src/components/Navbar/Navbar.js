@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Nav, NavDropdown, Navbar } from "react-bootstrap";
 import "./Navbar.css";
 import logo from "./logo.png";
@@ -7,7 +7,7 @@ function NavigationBar() {
   return (
     <Navbar expand="lg" variant="dark" className="sticky-top">
       <Navbar.Brand href="#home">
-        <img style={{ width: 150, height: 70 }} src={logo} />
+        <img style={{ width: 150, height: 70 }} src={logo} alt='logo'/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
