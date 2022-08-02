@@ -70,7 +70,7 @@ const Members = (props) => {
             </div>
             <h3 class="member-title">
               <p style={{ color: "aquamarine", fontWeight: "bold" }}>
-              Gangadhar{" "}
+              Gangadhar Undi{" "}
                 <sub style={{ color: "white", fontWeight: "normal" }}>
                   Ph.D.
                 </sub>
